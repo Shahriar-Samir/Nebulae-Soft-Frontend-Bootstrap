@@ -7,23 +7,66 @@ body{
 }
 
 ul.custom-bullets {
-    list-style-type: none; /* Remove default bullets */
-    padding-left: 20px; /* Add space for custom bullet */
+    list-style-type: none; 
+    padding-left: 20px; 
   }
 
-  ul.custom-bullets li {
+ul.custom-bullets li {
     position: relative;
-    padding-left: 25px; /* Add space to accommodate the larger bullet */
+    padding-left: 25px; 
   }
 
-  ul.custom-bullets li::before {
+ul.custom-bullets li::before {
     content: '';
     position: absolute;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 8px; /* Bullet size */
-    height: 8px; /* Bullet size */
-    border-radius: 50%; /* Circle shape */
-    background-color: black; /* Bullet color */
+    width: 8px; 
+    height: 8px; 
+    border-radius: 50%; 
+    background-color: black; 
   }
+
+ul.custom-bullets1 {
+    list-style-type: none; 
+    padding-left: 20px;
+  }
+
+ul.custom-bullets1 li {
+  position: relative;
+    padding-left: 30px; 
+  }
+
+
+ul.custom-bullets1 li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url('./svgs/bulletpoint.svg'); 
+    background-size: 12px 12px; 
+    background-repeat: no-repeat;
+    width: 12px; 
+    height: 12px; 
+  }
+
+
+/* sidebars */
+
+.aside-1{
+  width: 50%;
+}
+.aside-2{
+  width: 50%;
+}
+
+@media (max-width:768px) {
+  .aside-1{
+    width: 100%;
+  }
+  .aside-2{
+    width: 100%;
+  }
+}
