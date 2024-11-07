@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+ul.custom-bullets {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 20px; /* Add space for custom bullet */
+  }
+
+  ul.custom-bullets li {
+    position: relative;
+    padding-left: 25px; /* Add space to accommodate the larger bullet */
+  }
+
+  ul.custom-bullets li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px; /* Bullet size */
+    height: 8px; /* Bullet size */
+    border-radius: 50%; /* Circle shape */
+    background-color: black; /* Bullet color */
+  }
