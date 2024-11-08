@@ -70,3 +70,7 @@ ul.custom-bullets1 li::before {
     width: 100%;
   }
 }
+
+.swiper {
+  width: 100%;
+}
