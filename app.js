@@ -10,11 +10,17 @@ new Swiper('.swiper', {
       prevEl: '.swiper-button-prev',
     },
     breakpoints:{
-        0:{
-            slidesPerView:1
+        585:{
+            slidesPerView:2,
+            spaceBetween: 10,
         },
-        1024:{
-            slidesPerView:2
+        768:{
+            slidesPerView:1,
+            spaceBetween: 10,
+        },
+        1200:{
+            slidesPerView:2,
+            spaceBetween: 20,
         },
     }
 
