@@ -74,3 +74,20 @@ ul.custom-bullets1 li::before {
 .swiper {
   width: 100%;
 }
+
+.inactive{
+  background-color: #f2f8fc !important;
+  color: #414042 !important;
+  font-size: 14px !important;
+  font-weight: 400;
+}
+
+.active{
+  background-color: #eceaf9 !important;
+  color: #414042 !important;
+  font-size: 14px !important;
+}
+
+.tabContent{
+  background-color: transparent !important;
+}
