@@ -71,6 +71,8 @@ ul.custom-bullets1 li::before {
   }
 }
 
+
+
 .swiper {
   width: 100%;
 }
@@ -79,8 +81,9 @@ ul.custom-bullets1 li::before {
   background-color: #f2f8fc !important;
   color: #414042 !important;
   font-size: 14px !important;
-  font-weight: 400;
+  font-weight: 500;
 }
+
 
 .active{
   background-color: #eceaf9 !important;
@@ -90,4 +93,23 @@ ul.custom-bullets1 li::before {
 
 .tabContent{
   background-color: transparent !important;
+}
+
+@media (max-width:400px) {
+  .inactive{
+    background-color: #f2f8fc !important;
+    color: #414042 !important;
+    font-size: 11px !important;
+    font-weight: 500;
+  }
+  .active{
+    background-color: #eceaf9 !important;
+    color: #414042 !important;
+    font-size: 11px !important;
+    font-weight: 500;
+  }
+  .tabContent{
+    background-color: transparent !important;
+  }
+  
 }
